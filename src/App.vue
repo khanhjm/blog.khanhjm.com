@@ -1,26 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <router-view name="header"></router-view>
+    <main>
+      <router-view v-slot="{ Component }">
+        <FadeTransition name="FadeTransition" entry="left" exit="left" :duration="10000" mode="out-in">
+          <component :is="Component" />
+        </FadeTransition>
+      </router-view>
+    </main>
+    <router-view name="footer"></router-view>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { defineComponent } from 'vue'
+import { FadeTransition } from "vue3-transitions"
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+export default defineComponent({
+  components: { FadeTransition }
+})
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
