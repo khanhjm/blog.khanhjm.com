@@ -1,7 +1,19 @@
 <template>
   Index
+  <div>
+    <p class="lead">
+    Bootstrap 5 no longer requires jQuery and all components are written in
+    vanilla JS which makes it easier to use with frameworks like Vue.js!
+    </p>        
+  </div>
+  <h3>The simplest way is to use the <code>data-bs-</code> attributes in your markup...</h3>
+  <div class="py-2">
+    <button class="btn btn-primary" data-bs-target="#collapseTarget" data-bs-toggle="collapse">Bootstrap collapse</button>
+    <div class="collapse py-2" id="collapseTarget">
+      This is the toggle-able content!
+    </div>
+    </div>
 </template>
-
 <script>
 export default {}
 </script>

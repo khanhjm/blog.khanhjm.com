@@ -3,7 +3,7 @@
     <router-view name="header"></router-view>
     <main>
       <router-view v-slot="{ Component }">
-        <FadeTransition name="FadeTransition" entry="left" exit="left" :duration="10000" mode="out-in">
+        <FadeTransition entry="left" exit="left" mode="out-in">
           <component :is="Component" />
         </FadeTransition>
       </router-view>
@@ -13,12 +13,12 @@
 </template>
 
 <script>
-import { defineComponent } from 'vue'
-import { FadeTransition } from "vue3-transitions"
+import { defineComponent } from "vue";
+import { FadeTransition } from "vue3-transitions";
 
 export default defineComponent({
-  components: { FadeTransition }
-})
+  components: { FadeTransition },
+});
 </script>
 
 <style></style>
