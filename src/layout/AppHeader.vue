@@ -1,6 +1,6 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
+  <header id="header" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container">
       <a class="navbar-brand" href="/">KHANHJM</a>
       <button
         class="navbar-toggler"
@@ -14,9 +14,9 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <router-link class="nav-link active" to="/">Home</router-link>
+            <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/login">Login</router-link>
@@ -62,7 +62,7 @@
         </form>
       </div>
     </div>
-  </nav>
+  </header>
 </template>
 
 <script>

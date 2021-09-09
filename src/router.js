@@ -43,6 +43,8 @@ const routes = [{
 const router = createRouter({
     mode: 'history',
     history: createWebHistory(),
+    linkActiveClass: "active",
+    linkExactActiveClass: "exact-active",
     routes,
     scrollBehavior(to) {
         if (to.hash) {
