@@ -1,13 +1,27 @@
 <template>
-  <footer id="footer">Footer Time: {{ timeNow }}</footer>
+  <footer id="footer" class="footer fixed-bottom" style="background-color: #80ffff">
+    <div id="timeFooter" class="container">Footer Time: {{ timeNow }}</div>
+  </footer>
 </template>
 
 <script>
+import moment from "moment";
+
 export default {
   data() {
     return {
-      timeNow: new Date(),
+      timeNow: moment(Date.now()).format("DD/MM/YYYY hh:mm:ss"),
     };
+  },
+  methods: {
+    startInterval: function () {
+      setInterval(() => {
+        this.timeNow = moment(Date.now()).format("DD/MM/YYYY hh:mm:ss");
+      }, 10);
+    },
+  },
+  mounted() {
+    this.startInterval();
   },
 };
 </script>

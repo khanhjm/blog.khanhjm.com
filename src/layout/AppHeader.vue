@@ -1,7 +1,11 @@
 <template>
-  <header id="header" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <header
+    id="header"
+    class="navbar sticky-top navbar-expand-lg navbar-light"
+    style="border-bottom: 1px solid #e5e9ef; background-color: #e3f2fd"
+  >
     <div class="container">
-      <a class="navbar-brand" href="/">KHANHJM</a>
+      <a class="navbar-brand fw-bold" href="/">KHANHJM</a>
       <button
         class="navbar-toggler"
         type="button"
