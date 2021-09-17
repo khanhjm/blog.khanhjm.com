@@ -5,10 +5,6 @@ import Vue3Transitions from 'vue3-transitions'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 
-// user bootstrap
-// import bootstrap from 'bootstrap'
-// const bootstrap = require('bootstrap')
-
 const app = createApp(App)
 app.use(router)
 app.use(Vue3Transitions)

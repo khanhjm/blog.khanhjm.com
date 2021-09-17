@@ -1,5 +1,9 @@
 <template>
-  <footer id="footer" class="footer fixed-bottom" style="background-color: #80ffff">
+  <footer
+    id="footer"
+    class="footer fixed-bottom"
+    style="background-color: #80ffff; height: 24px"
+  >
     <div id="timeFooter" class="container">Footer Time: {{ timeNow }}</div>
   </footer>
 </template>
