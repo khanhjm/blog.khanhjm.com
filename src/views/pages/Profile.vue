@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-3" style="padding-bottom: 24px">
+  <div class="container mt-3" style="">
     <div id="avatar" class="row" style="background-color: #18e7b8">
       <div class="col-sm-4">
         <img
@@ -35,7 +35,11 @@
       <div class="col-lg-4 col-sm-6 py-1">
         <i class="bi bi-facebook" />
         <span class="ms-2">
-          <a class="text-reset text-decoration-none" href="https://fb.com/khanhjm">
+          <a
+            class="text-reset text-decoration-none"
+            target="_blank"
+            href="https://fb.com/khanhjm"
+          >
             https://fb.com/khanhjm
           </a>
         </span>
@@ -70,17 +74,24 @@
                   <ul>
                     <li>Phần mềm kế toán MISA SME.NET 2020</li>
                     <ul>
-                      <li>Lập trình viên</li>
+                      <li>Developer</li>
                     </ul>
                     <li>Hóa đơn điện tử MISA meInvoice</li>
                     <ul>
-                      <li>Lập trình viên</li>
-                      <li>Builder - DBO</li>
+                      <li>Developer</li>
+                      <li>Builder</li>
                     </ul>
                   </ul>
                 </li>
                 <li>Thiết kế API tích hợp hóa đơn điện tử</li>
-                <li>Dev OPS</li>
+                <li>
+                  Triển khai tích hợp hóa đơn điện tử, ví dụ như các đơn vị:
+                  <ul>
+                    <li>Bến xe Miền Đông: xuất vé tự động</li>
+                    <li>Bệnh viện Nhi Đồng 2: kết nối với Phần mềm Quản lý Bệnh viện</li>
+                    <li>MERCK Việt Nam</li>
+                  </ul>
+                </li>
               </ul>
             </span>
           </div>

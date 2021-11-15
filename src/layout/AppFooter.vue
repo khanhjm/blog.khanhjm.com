@@ -2,7 +2,7 @@
   <footer
     id="footer"
     class="footer fixed-bottom"
-    style="background-color: #80ffff; height: 24px"
+    style="height: 24px; border-bottom: 1px solid #e5e9ef; background-color: #e3f2fd"
   >
     <div id="timeFooter" class="container">Footer Time: {{ timeNow }}</div>
   </footer>

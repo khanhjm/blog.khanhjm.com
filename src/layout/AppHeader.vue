@@ -31,7 +31,7 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/profile">Profile</router-link>
           </li>
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -48,14 +48,14 @@
               <router-link class="dropdown-item" to="/register">Register</router-link>
               <router-link class="dropdown-item" to="/profile">Profile</router-link>
             </ul>
-          </li>
-          <li class="nav-item">
+          </li> -->
+          <!-- <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
               >Disabled</a
             >
-          </li>
+          </li> -->
         </ul>
-        <form class="d-flex">
+        <form class="d-flex ps-5">
           <input
             class="form-control me-2"
             type="search"
