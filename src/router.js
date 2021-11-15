@@ -37,6 +37,9 @@ const routes = [{
         header: AppHeader,
         default: Profile,
         footer: AppFooter
+    },
+    meta: {
+        title: 'Thông tin cá nhân'
     }
 }]
 
@@ -54,5 +57,9 @@ const router = createRouter({
         }
     }
 });
-
+var pjson = require('../package.json');
+router.beforeEach((toRoute, fromRoute, next) => {
+    window.document.title = pjson.name + " - " + (toRoute.meta && toRoute.meta.title ? toRoute.meta.title : 'Trang chủ');
+    next();
+})
 export default router;
