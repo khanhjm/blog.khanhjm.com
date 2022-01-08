@@ -1,0 +1,8 @@
+#main {
+    padding-bottom: 24px;
+}
+
+a:active,
+a:hover {
+    color: #377dff;
+}
