@@ -36,7 +36,7 @@
         <i class="bi bi-facebook" />
         <span class="ms-2">
           <a
-            class="text-reset text-decoration-none"
+            class="text-black text-decoration-none"
             target="_blank"
             href="https://fb.com/khanhjm"
           >
