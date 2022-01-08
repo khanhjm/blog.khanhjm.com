@@ -2,6 +2,7 @@
     padding-bottom: 24px;
 }
 
-:active {
+a:active,
+a:hover {
     color: #377dff;
 }
