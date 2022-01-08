@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-3" style="">
-    <div id="avatar" class="row" style="background-color: #18e7b8">
+    <div id="avatar" class="row" style="background-color: #ebebeb">
       <div class="col-sm-4">
         <img
           class="img-thumbnail rounded-circle border border-info mx-auto my-3 d-block"
