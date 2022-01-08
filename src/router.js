@@ -13,6 +13,9 @@ const routes = [{
         header: AppHeader,
         default: Index,
         footer: AppFooter
+    },
+    meta: {
+        title: 'Trang chủ'
     }
 }, {
     path: "/login",
@@ -21,6 +24,9 @@ const routes = [{
         header: AppHeader,
         default: Login,
         footer: AppFooter
+    },
+    meta: {
+        title: 'Đăng nhập'
     }
 }, {
     path: "/register",
@@ -29,6 +35,9 @@ const routes = [{
         header: AppHeader,
         default: Register,
         footer: AppFooter
+    },
+    meta: {
+        title: 'Đăng ký'
     }
 }, {
     path: "/profile",
@@ -45,7 +54,7 @@ const routes = [{
 
 const router = createRouter({
     mode: 'history',
-    history: createWebHistory(),
+    history: createWebHistory(process.env.BASE_URL),
     linkActiveClass: "active",
     linkExactActiveClass: "exact-active",
     routes,

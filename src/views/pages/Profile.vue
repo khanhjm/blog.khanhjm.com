@@ -39,9 +39,8 @@
             class="text-black text-decoration-none"
             target="_blank"
             href="https://fb.com/khanhjm"
+            >https://fb.com/khanhjm</a
           >
-            https://fb.com/khanhjm
-          </a>
         </span>
       </div>
       <div class="col-lg-4 col-sm-6 py-1">
