@@ -14,13 +14,13 @@ import moment from "moment";
 export default {
   data() {
     return {
-      timeNow: moment(Date.now()).format("DD/MM/YYYY hh:mm:ss"),
+      timeNow: moment(Date.now()).format("DD/MM/YYYY HH:mm:ss"),
     };
   },
   methods: {
     startInterval: function () {
       setInterval(() => {
-        this.timeNow = moment(Date.now()).format("DD/MM/YYYY hh:mm:ss");
+        this.timeNow = moment(Date.now()).format("DD/MM/YYYY HH:mm:ss");
       }, 10);
     },
   },

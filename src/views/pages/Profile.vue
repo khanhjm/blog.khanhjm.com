@@ -26,7 +26,7 @@
       </div>
       <div class="col-lg-4 col-sm-6 py-1">
         <i class="bi bi-person-fill" />
-        <span class="ms-2">Nam</span>
+        <span class="ms-2">Nam - 🥶 Độc thân</span>
       </div>
       <div class="col-lg-4 col-sm-6 py-1">
         <i class="bi bi-calendar3" />
