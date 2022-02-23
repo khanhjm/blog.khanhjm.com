@@ -52,8 +52,13 @@
       <h4>Mục tiêu nghề nghiệp</h4>
       <div>
         <ul>
-          <li>Trở thành chuyên gia Công nghệ thông tin</li>
-          <li>Có công việc phù hợp với khả năng và đam mê của bản thân</li>
+          <li>
+            Trở thành chuyên gia Công nghệ thông tin, sử dụng thành thạo các kỹ năng đã có
+          </li>
+          <li>
+            Nâng cao khả năng lập trình, tư duy logic và làm chủ công nghệ mới để làm việc
+            và phát triển bản thân
+          </li>
           <li>Mang lại giá trị góp phần vào sự phát triển của cuộc sống</li>
           <li>Giao tiếp ngoại ngữ trôi chảy, làm chủ các công nghệ mới</li>
         </ul>
@@ -94,7 +99,10 @@
                   <ul>
                     <li>Bến xe Miền Đông: xuất vé tự động</li>
                     <li>Bệnh viện Nhi Đồng 2: kết nối với Phần mềm Quản lý Bệnh viện</li>
-                    <li>MERCK Việt Nam</li>
+                    <li>
+                      MERCK Việt Nam, Bệnh viện Hòa Bình, Đa khoa Ba Vì: tạo tool phát
+                      hành hóa đơn điện tử
+                    </li>
                   </ul>
                 </li>
               </ul>
