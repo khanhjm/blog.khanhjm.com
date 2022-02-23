@@ -4,7 +4,7 @@
     class="footer fixed-bottom"
     style="height: 24px; border-bottom: 1px solid #e5e9ef; background-color: #e3f2fd"
   >
-    <div id="timeFooter" class="container">Footer Time: {{ timeNow }}</div>
+    <div id="timeFooter" class="container">The time now: {{ timeNow }}</div>
   </footer>
 </template>
 
