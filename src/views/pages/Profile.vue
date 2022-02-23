@@ -73,16 +73,22 @@
                   <ul>
                     <li>Phần mềm kế toán MISA SME.NET 2020</li>
                     <ul>
-                      <li>Developer</li>
+                      <li>Lập trình Windows Form bằng VB.NET các nghiệp vụ kế toán</li>
                     </ul>
                     <li>Hóa đơn điện tử MISA meInvoice</li>
                     <ul>
-                      <li>Developer</li>
-                      <li>Builder</li>
+                      <li>
+                        Lập trình Windows Form bằng VB.NET các nghiệp vụ hóa đơn điện tử
+                      </li>
+                      <li>
+                        Thiết kế và triển khai ứng dụng RESTfull API lưu dữ liệu tập chung
+                        bằng .NET Core
+                      </li>
+                      <li>Builder sản phẩm MISA meInvoice Desktop</li>
                     </ul>
                   </ul>
                 </li>
-                <li>Thiết kế API tích hợp hóa đơn điện tử</li>
+                <li>Thiết kế RESTfull API tích hợp hóa đơn điện tử</li>
                 <li>
                   Triển khai tích hợp hóa đơn điện tử, ví dụ như các đơn vị:
                   <ul>
@@ -110,6 +116,7 @@
             <ul>
               <li>Sử dụng tốt ngôn ngữ C#, .NET</li>
               <li>Nắm vững Data Structure and Algorithms, OOP</li>
+              <li>Có kiến thức và sử dụng SQLServer, Mongo DB</li>
               <li>Phát triển ứng dụng với mô hình MVC, Entity</li>
               <li>Sử dụng Git, TFS</li>
             </ul>
